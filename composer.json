@@ -1,10 +1,10 @@
 {
-  "name": "meti/laravel-grid",
+  "name": "meti27/laravel-grid",
   "description": "A grid view for laravel, inspired by the yii2 grid widget",
   "license": "MIT",
   "type": "library",
   "keywords": [
-    "meti",
+    "meti27",
     "bootstrap",
     "laravel-grid",
     "laravel",
@@ -17,7 +17,7 @@
   "homepage": "https://github.com/meti27/laravel-grid",
   "authors": [
     {
-      "name": "Antony [meti] Chacha",
+      "name": "Antony [meti27] Chacha",
       "email": "chachaantony@gmail.com",
       "role": "Developer"
     }
@@ -45,7 +45,7 @@
   },
   "autoload": {
     "psr-4": {
-      "meti\\Grid\\": "src/"
+      "meti27\\Grid\\": "src/"
     }
   },
   "autoload-dev": {
@@ -56,10 +56,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "meti\\Grid\\Providers\\GridServiceProvider"
+        "meti27\\Grid\\Providers\\GridServiceProvider"
       ],
       "aliases": {
-        "Modal": "meti\\Grid\\Facades\\Modal"
+        "Modal": "meti27\\Grid\\Facades\\Modal"
       }
     },
     "branch-alias": {
